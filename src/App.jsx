@@ -9,17 +9,15 @@ import Footer from "./components/footer/Footer";
 
 const App = () => { 
   return (
-    <>
       <BrowserRouter>
-      <Header />
-        <Switch>
-          <Route exact path="/" component={Main} />
-          <Route path="/about" component={AboutUs} />
-          <Route path="/menu" component={Menu} />
-        </Switch>
-      <Footer />
+        <Header />
+          <Switch>
+            <Route exact path="/" component={Main} />
+            <Route path="/about" component={AboutUs} />
+            <Route path="/menu" component={Menu} />
+          </Switch>
+        <Footer />
       </BrowserRouter>
-    </>
   );
 }
 export default App;
