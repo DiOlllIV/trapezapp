@@ -11,11 +11,13 @@ const App = () => {
   return (
     <>
       <Header />
-        <BrowserRouter>
+      <BrowserRouter>
+        <Switch>
           <Route exact path="/" component={Main} />
           <Route path="/about" component={AboutUs} />
           <Route path="/menu" component={Menu} />
-        </BrowserRouter>
+        </Switch>
+      </BrowserRouter>
       <Footer />
     </>
   );
