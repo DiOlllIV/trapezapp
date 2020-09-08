@@ -1,0 +1,91 @@
+@import '../../breakpoints.scss';
+
+.menuBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  & hr {
+    width: 90%;
+  }
+
+  &-head {
+    font-size: 54px;
+    font-weight: 500;
+    margin: 5% 0;
+    color: rgb(180, 190, 200);
+    
+    @include for-mobile-up {
+      text-align: center;
+    }
+  }
+
+  &-paragraph {
+    font-size: 28px;
+    color: rgb(150, 165, 175);
+
+    @include for-mobile-up {
+      text-align: center;
+    }
+  }
+
+  &-section {
+    display: flex;
+    justify-content: space-around;
+    
+    @include for-mobile-up {
+      flex-direction: column;
+    }
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    margin: 5%;
+    background-color: rgba(128, 128, 128, 0.1);
+    border: 1px solid gray;
+    border-radius: 15px;
+
+    &__head {
+      padding: 5% 3%;
+      margin: auto;
+      font-size: 30px;
+      color: rgb(240, 248, 255);
+    }
+
+    &__about {
+      border-top: 1px solid rgb(128, 128, 128);
+      border-bottom: 1px solid rgb(128, 128, 128);
+      margin: auto 3%;
+      padding: 5%;
+      font-size: 20px;
+      color: rgb(240, 248, 255);
+    }
+
+    &__option {
+      border-bottom: 1px solid rgb(128, 128, 128);
+      margin: auto 3%;
+      padding: 5%;
+      font-size: 20px;
+      color: rgb(240, 248, 255);
+    }
+
+    & a {
+      margin: auto;
+    }
+
+    &__btn {
+      width: 180px;
+      height: 56px;
+      margin: auto;
+      background-color: white;
+      border-radius: 20px;
+      font-size: 22px;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+$sm: 950px;
+$lg: 1050px;
+
+@mixin for-small-up {
+    @media screen and (max-width: $sm) {
+        @content;
+    }
+}
+
+@mixin for-mobile-up {
+    @media screen and (max-width: $lg) {
+        @content;
+    }
+}

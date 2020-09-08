@@ -1,0 +1,42 @@
+@import '../../breakpoints.scss';
+
+.baner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 920px;
+  margin: auto 1%;
+  background-image: url("/src/img/baner.jpg");
+  background-size: cover;
+
+  &-conteiner {
+    width: 45%;
+    height: 20%;
+    text-align: center;
+    margin: auto;
+
+    @include for-mobile-up {
+      width: 95%;
+    }
+
+    &__head {
+      margin: 0;
+      padding: 5%;
+      text-transform: uppercase;
+      font-size: 52px;
+      background-color: rgba(212, 212, 212, 0.425);
+      border-radius: 20px 20px 0 0;
+
+    }
+
+    &__paragraph {
+
+      margin: 0;
+      padding: 5%;
+      font-size: 22px;
+      background-color: rgba(212, 212, 212, 0.425);
+      border-radius: 0 0 20px 20px;
+    }
+  }
+}
