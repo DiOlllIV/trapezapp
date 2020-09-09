@@ -6,10 +6,10 @@ const AboutUs = () => {
     <div className="aboutUs">
       <div className="aboutUs-section">
         <div className="aboutUs-section__img">
-          <img src="src/img/about_us-corner.jpg" alt=""/>
+          <img src="https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/about_us-corner.jpg" alt=""/>
         </div>
         <div className="aboutUs-section__img">
-          <img src="src/img/about_us-centre.jpg" alt=""/>
+          <img src="https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/about_us-centre.jpg" alt=""/>
           <div className="aboutUs-section__stars">
             <div></div>
             <div></div>
@@ -19,7 +19,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="aboutUs-section__img">
-          <img src="src/img/about_us-corner1.jpg" alt=""/>
+          <img src="https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/about_us-corner1.jpg" alt=""/>
         </div>
       </div>
       <p className="aboutUs-paragraph">

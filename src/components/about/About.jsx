@@ -10,7 +10,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-container__img">
           <img
-            src="/src/img/main_page.jpg" alt="program"
+            src="https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/main_page.jpg" alt="program"
           />
         </div>
         <div className="about-container__description">
@@ -25,7 +25,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-container__img">
           <img 
-            src="/src/img/main_page2.jpg" alt="cook"
+            src="https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/main_page2.jpg" alt="cook"
           />
         </div>
         <div className="about-container__description">
@@ -42,7 +42,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-container__img">
           <img 
-            src="/src/img/main_page3.jpg" alt="delivery"
+            src="https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/main_page3.jpg" alt="delivery"
           />
         </div>
         <div className="about-container__description">

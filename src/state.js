@@ -1,6 +1,6 @@
 export const menuStorage = {
   weight : {
-    img: "/src/img/menu_express5.jpg",
+    img: "https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/menu_express5.jpg",
     depiction: "М'язова маса",
     price: 299,
     description: {
@@ -16,7 +16,7 @@ export const menuStorage = {
     }
   },
   slimming : {
-    img: "/src/img/menu_express4.jpg",
+    img: "https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/menu_express4.jpg",
     depiction: "Схуднення",
     price: 299,
     description: {
@@ -32,7 +32,7 @@ export const menuStorage = {
     }
   },
   balance : {
-    img: "/src/img/menu_express3.jpg",
+    img: "https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/menu_express3.jpg",
     depiction: "Баланс",
     price: 299,
     description: {
@@ -48,7 +48,7 @@ export const menuStorage = {
     }
   },
   vegetarian : {
-    img: "/src/img/menu_express2.jpg",
+    img: "https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/menu_express2.jpg",
     depiction: "Вегетеріанська",
     price: 299,
     description: {
@@ -64,7 +64,7 @@ export const menuStorage = {
     }
   },
   expressSlimming : {
-    img: "/src/img/menu_express.jpg",
+    img: "https://raw.githubusercontent.com/DiOlllIV/trapezapp/master/src/img/menu_express.jpg",
     depiction: "Експрес схуднення",
     price: 299,
     description: {
