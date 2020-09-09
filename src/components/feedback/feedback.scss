@@ -1,0 +1,79 @@
+@import '../../breakpoints.scss';
+
+.feedback {
+  display: flex;
+  width: 100%;
+  padding: 15% 5% 5% 5%;
+
+  @include for-small-up {
+    flex-direction: column;
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & h1 {
+      text-align: center;
+      font-size: 56px;
+    }
+
+    & hr {
+      width: 20%;
+    }
+
+    &__icon {
+      width: 60px;
+      height: 60px;
+      background-image: url("../../img/phone-icon.png");
+      background-size: cover;
+    }
+
+    & a {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 4%;  
+    }
+
+    & span {
+      display: block;
+      width: 50%;
+      text-align: center;
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto;
+
+  @include for-small-up {
+    width: 80%;
+  }
+
+  &-control {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  &-lable {
+    margin: 1% 0;
+  }
+
+  &-input {
+    margin: 1% 0;
+    border: 1px solid rgb(170, 170, 170);
+    padding-left: 2%;
+  }
+
+  & input {
+    height: 35px;
+  }
+}

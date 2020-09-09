@@ -1,0 +1,19 @@
+@import '../../breakpoints.scss';
+
+.location {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & h1 {
+    font-size: 28px;
+  }
+
+  &-map {
+    @include for-small-up {
+      height: 300px;
+    }
+  }
+}

@@ -37,6 +37,7 @@
     "core-js": "^3.6.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-iframe": "^1.8.0",
     "react-router-dom": "^5.2.0",
     "react-tooltip": "^4.2.9"
   }
